@@ -34,6 +34,11 @@
 
 </div>
 
+> [!CAUTION]
+> **Scheduled Platform Maintenance & Infrastructure Upgrade in Progress**  
+> The Free Laya AI Model API Gateway is currently undergoing an extensive infrastructure maintenance overhaul and backend compute cluster upgrade. During this upgrade cycle, public API endpoints (including RapidAPI and direct endpoints) are temporarily offline or undergoing intermittent testing as we transition to higher-capacity architecture.  
+> Full high-availability service will be restored once this upgrade window concludes. Live availability and operational telemetry remain monitored 24/7 on our public [**Uptime Status Page**](https://uptime.harshad.eu.org/status/laya).
+
 > [!NOTE]
 > **Product Clarification: Free API of Laya Model AI**  
 > This repository provides the hosted **Free API of Laya Model AI** (an ultra-fast, cloud-accessible REST API Gateway offering **16,666 free requests/day** with sub-35ms neural inference). It is **not** the underlying foundational model weights themselves, which are open-sourced on Hugging Face by [Convai Innovations](https://huggingface.co/convaiinnovations/laya). Use this API to integrate sub-35ms deterministic intelligence into your applications without managing GPU clusters or model weights.
